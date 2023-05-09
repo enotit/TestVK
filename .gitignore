@@ -1,0 +1,25 @@
+﻿# Visual Studio
+.vs/
+
+# Build output
+bin/
+obj/
+
+# NuGet
+*.nuget.cache
+packages/
+*.nupkg
+*.paket.*
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Entity Framework
+/appsettings.Development.json
+/appsettings.json
+/appsettings.Production.json
+*.edmx.diagram
+*.tt
